@@ -1,0 +1,28 @@
+Class variable : 
+
+1 : class variables are same for all objects of the class
+2 : class variables id are same or one for all objects of the class
+3 : class varibles can be re assign for perticular one object or for class also
+4 : if we reasign class variable for one object then it will generate intance variable for its object with new id and class variable id and value will be same
+5 : if we reasign a class variable for whole class then its id will change , means new value assign and class variable for all objects will be change with its id and location
+6 : If we look for a instance variable of a object then python first check it contains in its instance variable or not , if not then it will check if this variable is assign in class or not .
+
+
+property decorator with setter : 
+
+1 : we can read any instance value of a object by assign its method with property decorator
+2 : property decorator works with only private variables 
+3 : property can be use for set any value to private variables 
+
+
+class methods : 
+
+1 : class method are those methods which use only class variables because , It does not require to make any object first
+2 : class method also known as a factory methods to create objects from strings or dictnory
+3 : in class method first contains " cls " as a parameter to call it self class
+
+Static Method : 
+1 : static method does not require any first special parameter 
+2 : it does not require to run with instance state or class state 
+3 : it can be use as a helper function which only require its reqular parameters
+ 

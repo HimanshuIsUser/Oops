@@ -1,0 +1,112 @@
+print(dir(int))
+
+output:
+['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', 
+'__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', 
+'__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', 
+'__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', 
+'__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__',
+'__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', 
+'__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', 
+'__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__',
+'__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 
+'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
+
+
+__abs__ : It calls abs() function to remove - and return absolute value
+
+__add__ : It add the values and return it
+
+__init__(self, ...): Constructor method, called when an object is created and initialize the object.
+
+__del__(self): Destructor method, called when an object is about to be destroyed.
+
+String Representation:
+
+__repr__(self): Object representation for developers (used by repr()) .
+
+__str__(self): Object representation for end-users (used by str()).
+
+Attribute Access:
+
+__getattr__(self, name): Used when an attribute is not found or define in class , it shows custom message rather then attribute error.
+
+__setattr__(self, name, value): Used when an attribute is assigned .
+
+__delattr__(self, name): Used when an attribute is deleted.
+
+Callable Objects:
+
+__call__(self, ...): Allows an instance to be called as a function, call every time when a object is created
+
+Container Types:
+
+__len__(self): Used to implement the len() function.
+
+__getitem__(self, key): Used for indexing with square brackets.
+
+__setitem__(self, key, value): Used for assignment with square brackets.
+
+__delitem__(self, key): Used for deletion with square brackets.
+
+__iter__(self): Used to implement iteration over an object.
+
+__next__(self): Used to get the next value in an iterator .
+
+
+Comparison Operators:
+
+__eq__(self, other): Used for equality comparison (==).
+
+__ne__(self, other): Used for non-equality comparison (!=).
+
+__lt__(self, other): Used for less-than comparison (<).
+
+__le__(self, other): Used for less-than-or-equal comparison (<=).
+
+__gt__(self, other): Used for greater-than comparison (>).
+
+__ge__(self, other): Used for greater-than-or-equal comparison (>=).
+
+
+Numeric Operators:
+
+__add__(self, other): Used for addition (+).
+
+__sub__(self, other): Used for subtraction (-).
+
+__mul__(self, other): Used for multiplication (*).
+
+__truediv__(self, other): Used for division (/).
+
+__floordiv__(self, other): Used for floor division (//).
+
+__mod__(self, other): Used for modulus (%).
+
+__pow__(self, other[, modulo]): Used for exponentiation (**).
+
+
+
+Unary Operators:
+
+__neg__(self): Used for negation (-).
+
+__pos__(self): Used for unary plus (+).
+
+__abs__(self): Used for absolute value (abs()).
+
+__invert__(self): Used for bitwise negation (~).
+
+
+Context Management:
+
+__enter__(self): Used for entering a context (with statement).
+
+__exit__(self, exc_type, exc_value, traceback): Used for exiting a context (with statement).
+
+
+Miscellaneous:
+
+__hash__(self): Used to implement hash-based collections.
+
+__format__(self, format_spec): Used by the format() function.
